@@ -5,7 +5,7 @@ const Login = ({ setIsAuthenticated }) => {
   const adminEmail = 'dev.anwar24@gmail.com';
   const adminPassword = 'qwerty';
 
-  const [email, setEmail] = useState('admin@example.com');
+  const [email, setEmail] = useState('dev.anwar24@gmail.com');
   const [password, setPassword] = useState('qwerty');
 
   const handleLogin = e => {
