@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import Login from '../Login';
 import Dashboard from '../Dashboard';
-
+//New Login Icon Inseart//
+import https://{(https://lottiefiles.com/99070-react-native-logo)};
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(null);
 
