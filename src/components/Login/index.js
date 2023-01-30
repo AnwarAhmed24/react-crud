@@ -52,13 +52,14 @@ const Login = ({ setIsAuthenticated }) => {
   return (
     <div className="small-container">
       <form onSubmit={handleLogin}>
-        <h1>Admin Login</h1>
+        <h1>Hi, Amwar</h1>
+<h3>Login Your Dashborad</h3>
         <label htmlFor="email">Email</label>
         <input
           id="email"
           type="email"
           name="email"
-          placeholder="admin@example.com"
+          placeholder="dev.anwar24@gmail.com"
           value={email}
           onChange={e => setEmail(e.target.value)}
         />
