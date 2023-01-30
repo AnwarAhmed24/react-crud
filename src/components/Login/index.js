@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 
 const Login = ({ setIsAuthenticated }) => {
-  const adminEmail = 'dev.anwar24.com';
-  const adminPassword = 'Pass360';
+  const adminEmail = 'dev.anwar24@gmail.com';
+  const adminPassword = 'qwerty';
 
   const [email, setEmail] = useState('admin@example.com');
   const [password, setPassword] = useState('qwerty');
